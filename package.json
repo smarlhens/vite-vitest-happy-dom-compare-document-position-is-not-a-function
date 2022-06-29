@@ -1,0 +1,41 @@
+{
+  "name": "vite-vitest-happy-dom-compare-document-position-is-not-a-function",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:snapshot": "vitest run -u",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@headlessui/vue": "1.6.5",
+    "tailwindcss": "3.1.4",
+    "vue": "3.2.37"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "0.4.0",
+    "@tailwindcss/forms": "0.5.2",
+    "@tailwindcss/line-clamp": "0.4.0",
+    "@tailwindcss/typography": "0.5.2",
+    "@testing-library/vue": "6.6.0",
+    "@types/node": "18.0.0",
+    "@vitejs/plugin-vue": "2.3.3",
+    "@vitest/ui": "0.16.0",
+    "autoprefixer": "10.4.7",
+    "happy-dom": "5.3.4",
+    "jsdom": "20.0.0",
+    "postcss": "8.4.14",
+    "sass": "1.53.0",
+    "typescript": "4.7.4",
+    "vite": "2.9.13",
+    "vitest": "0.16.0",
+    "vue-tsc": "0.38.2"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  }
+}
